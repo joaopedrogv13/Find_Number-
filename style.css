@@ -1,0 +1,56 @@
+body{
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: rgb(103, 176, 249);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    padding: 3em 4em;
+    color: white;
+}
+
+section input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+    width: 50%;
+}
+
+section input::placeholder{
+    color: white;
+}
+
+section input:focus{
+    border-bottom: 1px solid rgb(6, 6, 48);
+}
+
+section button{
+    padding: .8rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: rgb(55, 125, 195);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: rgb(70, 160, 251);
+    transition: .6s;
+}
